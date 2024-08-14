@@ -1,6 +1,7 @@
 USAGE 
 
 //HTML
+```
 <div class="timer">
   <div class="timer__block">
       <span id="days">12</span>
@@ -19,7 +20,11 @@ USAGE
       seconds
   </div>
 </div>
+```
 
 //JS
 
-timer('.timer', 'year-month-day'); //'2020-05-21'
+```timer('selector', 'year-month-day'); ```
+
+for example - timer('.timer', '2020-05-21');
+
